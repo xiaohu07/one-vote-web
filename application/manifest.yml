@@ -1,0 +1,7 @@
+---
+applications:
+- name: one-vote-web
+  memory: 64MB
+  command: node server.js
+  buildpack: nodejs-v1-6-0
+  random-route: true

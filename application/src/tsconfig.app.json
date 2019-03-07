@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": [],
+    "allowJs": true
+  },
+  "exclude": [
+    "test.ts",
+    "./pendo/pendo.js",
+    "**/*.spec.ts",
+    "setupJest.ts",
+    "jestGlobalMocks.ts"
+  ]
+}
