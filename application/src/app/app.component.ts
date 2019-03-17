@@ -2,12 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'vote-root',
-  template: `
+  template: `    
     <!--The content below is only a placeholder and can be replaced.-->
-    <div class="container col-sm-12 col-lg-3">
-      <div>Welcome to One Vote!!!</div>
-      <p>This is your Login Page</p>
-      <router-outlet></router-outlet>
+    <div class="container">
+      <div class="col-md-1 col-lg-12">Welcome to One Vote!!!</div>
     </div>
 
   `,
