@@ -22,6 +22,7 @@ if(process.env.NODE_ENV === 'development') {
       res.header('Access-Control-Allow-Origin', '*');
       res.header('Access-Control-Allow-Methods', 'GET, POST');
       res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+      res.header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT");
         if(req.method === 'OPTIONS') {
             return res.sendStatus(200);
         }
